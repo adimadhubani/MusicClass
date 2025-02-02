@@ -1,105 +1,107 @@
 {
-    "courses": [
-      {
-        "id": 1,
-        "title": "Mastering the Piano for Beginners",
-        "description": "Learn the fundamentals of piano playing, from scales to simple songs, in a structured and engaging way.",
-        "price": 49.99,
-        "instructor": "Dr. Emily Harper",
-        "isFeatured": true,
-        "image": "https://example.com/images/piano-beginners.jpg",
-        "slug": "mastering-the-piano-for-beginners"
-      },
-      {
-        "id": 2,
-        "title": "Guitar Essentials: Acoustic and Electric",
-        "description": "A comprehensive course covering chords, strumming, and beginner solos on acoustic and electric guitars.",
-        "price": 39.99,
-        "instructor": "Jake Anderson",
-        "isFeatured": false,
-        "image": "https://example.com/images/guitar-essentials.jpg",
-        "slug": "guitar-essentials-acoustic-and-electric"
-      },
-      {
-        "id": 3,
-        "title": "Singing Mastery: Find Your Voice",
-        "description": "Enhance your vocal range, pitch, and tone with professional singing techniques and exercises.",
-        "price": 59.99,
-        "instructor": "Sophia Martinez",
-        "isFeatured": true,
-        "image": "https://example.com/images/singing-mastery.jpg",
-        "slug": "singing-mastery-find-your-voice"
-      },
-      {
-        "id": 4,
-        "title": "Music Theory 101: The Building Blocks of Music",
-        "description": "Understand the basics of music theory, including scales, chords, and rhythm, to enhance your music skills.",
-        "price": 29.99,
-        "instructor": "Prof. Mark Thompson",
-        "isFeatured": false,
-        "image": "https://example.com/images/music-theory.jpg",
-        "slug": "music-theory-101-the-building-blocks-of-music"
-      },
-      {
-        "id": 5,
-        "title": "Drumming for Everyone: Basics and Beyond",
-        "description": "Learn how to play drums like a pro, from basic beats to advanced drumming techniques.",
-        "price": 44.99,
-        "instructor": "Liam Reynolds",
-        "isFeatured": true,
-        "image": "https://example.com/images/drumming-basics.jpg",
-        "slug": "drumming-for-everyone-basics-and-beyond"
-      },
-      {
-        "id": 6,
-        "title": "Violin Basics: From Strings to Symphony",
-        "description": "Start your violin journey with this beginner-friendly course and learn how to play simple tunes.",
-        "price": 39.99,
-        "instructor": "Olivia Bennett",
-        "isFeatured": false,
-        "image": "https://example.com/images/violin-basics.jpg",
-        "slug": "violin-basics-from-strings-to-symphony"
-      },
-      {
-        "id": 7,
-        "title": "Digital Music Production with Ableton Live",
-        "description": "Create your own music with professional tools and techniques using Ableton Live software.",
-        "price": 79.99,
-        "instructor": "David Carter",
-        "isFeatured": true,
-        "image": "https://example.com/images/digital-music.jpg",
-        "slug": "digital-music-production-with-ableton-live"
-      },
-      {
-        "id": 8,
-        "title": "Ukulele for Beginners",
-        "description": "Master the basics of ukulele playing and learn popular songs in no time.",
-        "price": 24.99,
-        "instructor": "Mia Collins",
-        "isFeatured": false,
-        "image": "https://example.com/images/ukulele.jpg",
-        "slug": "ukulele-for-beginners"
-      },
-      {
-        "id": 9,
-        "title": "Jazz Improvisation: Unlock Your Creativity",
-        "description": "Explore the art of jazz improvisation and learn to create your own solos with ease.",
-        "price": 59.99,
-        "instructor": "James Wilson",
-        "isFeatured": true,
-        "image": "https://example.com/images/jazz-improvisation.jpg",
-        "slug": "jazz-improvisation-unlock-your-creativity"
-      },
-      {
-        "id": 10,
-        "title": "Sound Engineering and Mixing",
-        "description": "A deep dive into sound engineering, mixing techniques, and audio equipment for aspiring producers.",
-        "price": 89.99,
-        "instructor": "Ella Robinson",
-        "isFeatured": false,
-        "image": "https://example.com/images/sound-engineering.jpg",
-        "slug": "sound-engineering-and-mixing"
-      }
-    ]
-  }
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "guitar-fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/guitar.jpg" 
+    },
+    {
+      "id": 2,
+      "title": "Piano for Beginners",
+      "slug": "piano-for-beginners",
+      "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
+      "price": 109.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "/courses/piano.jpg" 
+    },
+    {
+      "id": 3,
+      "title": "Advanced Vocal Techniques",
+      "slug": "advanced-vocal-techniques",
+      "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
+      "price": 119.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "/courses/vocalist.jpg" 
+    },
+    {
+      "id": 4,
+      "title": "Drumming Mastery",
+      "slug": "drumming-mastery",
+      "description": "Master the drums with our comprehensive course covering all skill levels.",
+      "price": 129.99,
+      "instructor": "Mike Brown",
+      "isFeatured": false,
+      "image": "/courses/drumming.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Jazz Improvisation",
+      "slug": "jazz-improvisation",
+      "description": "Learn the art of jazz improvisation with this course designed for all levels.",
+      "price": 139.99,
+      "instructor": "Chris Davis",
+      "isFeatured": false,
+      "image": "/courses/jazz.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Music Production Fundamentals",
+      "slug": "music-production-fundamentals",
+      "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
+      "price": 149.99,
+      "instructor": "Alex Wilson",
+      "isFeatured": true,
+      "image": "/courses/music-prod.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Songwriting Essentials",
+      "slug": "songwriting-essentials",
+      "description": "Learn the essentials of songwriting to express your musical creativity.",
+      "price": 159.99,
+      "instructor": "Samantha Miller",
+      "isFeatured": false,
+      "image": "/courses/song-writing.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
+      "price": 169.99,
+      "instructor": "Luke Harris",
+      "isFeatured": true,
+      "image": "/courses/music-prod.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Classical Music History",
+      "slug": "classical-music-history",
+      "description": "Explore the rich history of classical music from its origins to the present day.",
+      "price": 179.99,
+      "instructor": "Grace Lee",
+      "isFeatured": false,
+      "image": "/courses/classical-music.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Blues Guitar Techniques",
+      "slug": "blues-guitar-techniques",
+      "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
+      "price": 189.99,
+      "instructor": "Ethan Moore",
+      "isFeatured": true,
+      "image": "/courses/blues.jpg"
+    }
+  ]
+}
+
+
   
